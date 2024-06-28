@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Gilroy";
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(80, 4, 156);
+}
+
+#panel {
+    width: 80%;
+    height: 90%;
+    background-color: #74054d;
+    border-radius: 20px;
+}
+
+#panelto {
+    padding: 0 30%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    color: rgb(239, 244, 239);
+    width: 100%;
+    height: 100px;
+    background-color: rgb(16, 238, 49);
+}
+
+.elem {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.elem h2 {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.box {
+    color: black;
+    font-weight: 500;
+    font-size: 22px;
+    padding: 10px 20px;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+#pbtm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 5px;
+    width: 100%;
+    height: calc(5% - 100px);
+}
+
+.bubble {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(233, 240, 12);
+    color: rgb(8, 0, 16);
+    border-radius: 70%;
+    font-weight: 500;
+}
+
+.bubble:hover {
+    cursor: pointer;
+    background-color: rgb(1, 79, 79);
+}
+
+/* Comment: minor mistake corrected */
